@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TaskFlow — Task Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">TaskFlow</div>
+      <nav class="nav">
+        <button id="nav-list" class="btn ghost">Tasks</button>
+        <button id="nav-new" class="btn primary">New Task</button>
+      </nav>
+    </header>
+    <main id="view" class="view" aria-live="polite"></main>
+    <footer class="footer">Made with care • Local-first • No accounts</footer>
+  </div>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
